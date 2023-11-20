@@ -1,33 +1,5 @@
-# programming
 
-Create a repository: on github
-
-On the laptop:
-
-- Change directory to Documents:
-```bash
-cd $documents
-```
-
-- Change directory to the right folder:
-```bash
-cd programming
-```
-
-Or make the two commands in one command:
-```bash
-cd $documents/programming
-```
-
-Return to initial path:
-```bash
-cd
-```
-
-List content of a folder:
-```bash
-ls
-```
+# Git
 
 Clone a repository
 ```
@@ -64,15 +36,33 @@ Push your changes on the cloud:
 ```bash
 git push
 ```
+# programming
 
-# SCALA
+Create a repository: on github
 
-Compile your program
+On the laptop:
+
+- Change directory to Documents:
 ```bash
-scalac main.scala
+cd $documents
 ```
 
-Run your program
+- Change directory to the right folder:
 ```bash
-scala 
+cd programming
+```
+
+Or make the two commands in one command:
+```bash
+cd $documents/programming
+```
+
+Return to initial path:
+```bash
+cd
+```
+
+List content of a folder:
+```bash
+ls
 ```

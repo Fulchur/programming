@@ -1,0 +1,10 @@
+2023.11.20 11:52:35 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\Ygramul\Documents\programming' for client Visual Studio Code 1.84.2.
+2023.11.20 11:52:36 WARN  Build server is not auto-connectable.
+2023.11.20 11:52:36 WARN  no build tool detected in workspace 'C:\Users\Ygramul\Documents\programming'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.11.20 11:52:54 INFO  
+2023.11.20 11:52:54 INFO  Template applied in C:\Users\Ygramul\Documents\programming\.\exercice_1
+2023.11.20 11:52:54 INFO  
+2023.11.20 11:52:54 INFO  time: ran 'giter8.Giter8' in 2.78s
+2023.11.20 11:53:04 INFO  Shutting down server
+2023.11.20 11:53:04 INFO  shutting down Metals
+2023.11.20 11:53:04 INFO  Exiting server

@@ -1,0 +1,75 @@
+2023.11.20 11:53:13 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\Ygramul\Documents\programming\exercice_1' for client Visual Studio Code 1.84.2.
+2023.11.20 11:53:14 WARN  Build server is not auto-connectable.
+2023.11.20 11:53:17 INFO  running 'C:\Program Files\Microsoft\jdk-17.0.9.8-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ygramul\AppData\Local\Temp\metals16337610469019933849\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.20 11:53:19 INFO  [info] welcome to sbt 1.9.7 (Microsoft Java 17.0.9)
+2023.11.20 11:53:23 INFO  [info] loading settings for project exercice_1-build-build from metals.sbt ...
+2023.11.20 11:53:23 INFO  [info] loading project definition from C:\Users\Ygramul\Documents\programming\exercice_1\project\project
+2023.11.20 11:53:26 INFO  [info] loading settings for project exercice_1-build from metals.sbt ...
+2023.11.20 11:53:26 INFO  [info] loading project definition from C:\Users\Ygramul\Documents\programming\exercice_1\project
+2023.11.20 11:53:28 WARN  no build target for: C:\Users\Ygramul\Documents\programming\exercice_1\src\main\scala\Main.scala
+2023.11.20 11:53:30 INFO  [success] Generated .bloop\exercice_1-build.json
+2023.11.20 11:53:30 INFO  [success] Total time: 4 s, completed 20 nov. 2023, 11:53:30
+2023.11.20 11:53:35 INFO  [info] loading settings for project exercice_1 from build.sbt ...
+2023.11.20 11:53:35 INFO  no build target found for C:\Users\Ygramul\Documents\programming\exercice_1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.20 11:53:35 INFO  [info] set current project to hello-world (in build file:/C:/Users/Ygramul/Documents/programming/exercice_1/)
+2023.11.20 11:53:36 INFO  [success] Generated .bloop\exercice_1.json
+2023.11.20 11:53:36 INFO  [success] Generated .bloop\exercice_1-test.json
+2023.11.20 11:53:36 INFO  [success] Total time: 1 s, completed 20 nov. 2023, 11:53:36
+2023.11.20 11:53:36 INFO  time: ran 'sbt bloopInstall' in 19s
+2023.11.20 11:53:36 INFO  Attempting to connect to the build server...
+2023.11.20 11:53:36 INFO  Bloop uses C:\Program Files\Microsoft\jdk-17.0.9.8-hotspot\ defined at C:\Users\Ygramul\.bloop\bloop.json
+2023.11.20 11:53:38 INFO  time: code lens generation in 9.3s
+2023.11.20 11:53:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ygramul\Documents\programming\exercice_1\.metals\bsp.trace.json or C:\Users\Ygramul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.20 11:53:43 INFO  Attempting to connect to the build server...
+2023.11.20 11:53:43 INFO  Bloop uses C:\Program Files\Microsoft\jdk-17.0.9.8-hotspot\ defined at C:\Users\Ygramul\.bloop\bloop.json
+2023.11.20 11:53:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ygramul\Documents\programming\exercice_1\project\.metals\bsp.trace.json or C:\Users\Ygramul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.20 11:53:43 INFO  time: Connected to build server in 6.5s
+2023.11.20 11:53:43 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.20 11:53:43 INFO  time: Imported build in 0.15s
+2023.11.20 11:53:49 INFO  time: indexed workspace in 6.49s
+2023.11.20 11:55:04 INFO  compiling exercice_1 (1 scala source)
+2023.11.20 11:55:08 INFO  time: compiled exercice_1 in 3.22s
+2023.11.20 11:55:20 INFO  time: code lens generation in 2.19s
+2023.11.20 11:55:43 INFO  time: code lens generation in 1.11s
+2023.11.20 11:55:45 INFO  compiling exercice_1 (1 scala source)
+2023.11.20 11:55:48 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.11.20 11:55:48 INFO  time: compiled exercice_1 in 2.96s
+2023.11.20 11:56:54 INFO  compiling exercice_1 (1 scala source)
+2023.11.20 11:56:56 INFO  time: compiled exercice_1 in 1.68s
+2023.11.20 11:56:58 INFO  compiling exercice_1 (1 scala source)
+2023.11.20 11:56:59 INFO  time: compiled exercice_1 in 1.24s
+2023.11.20 11:58:42 ERROR Failed to tokenize input for semantic tokens for C:\Users\Ygramul\Documents\programming\exercice_1\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:13: error: unclosed string literal
+    var choice = "0
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+nov. 20, 2023 11:58:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 159
+2023.11.20 12:01:33 INFO  compiling exercice_1 (1 scala source)
+2023.11.20 12:01:35 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.11.20 12:01:35 INFO  time: compiled exercice_1 in 1.72s
